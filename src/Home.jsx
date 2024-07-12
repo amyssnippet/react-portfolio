@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Home = () => <>
   <div className='router-container'>
     <div className='imgandname'>
-      <img src="/PSX_20240219_195257.jpg" width="100" height="100" alt='mypic' className='imghome' />
+      <img src="PSX_20240219_195257.jpg" width="100" height="100" alt='mypic' className='imghome' />
       <h1 className='nameh1'>Hi, I'm <span className='h1xtrastyle'>Amol</span></h1>
     </div>
     <div className='mydesc'>
