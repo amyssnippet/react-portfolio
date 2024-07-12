@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+html {
+  scroll-behavior:smooth;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#myprofilepic {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* src/components/Loader.css */
+.loader-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  z-index: 9999;
+}
+
+.loader {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #ff6ec4 0%,red 100%);
+  animation: loading 1.5s infinite;
+}
+
+@keyframes loading {
+  0% { transform: translateX(-100%); }
+  50% { transform: translateX(0); }
+  100% { transform: translateX(100%); }
+}
+
+.router-container {
+  margin-left: 10px;
+  margin-right: 10px; 
+}
+
+.imgandname {
+  margin-top:30px;
+  display:flex;
+}
+
+.imghome {
+  border-radius:50%;
+}
+
+.nameh1 {
+  margin-top:8px;
+  margin-left:35px;
+  font-family: "Baskervville SC", serif;
+  font-weight: 600;
+  font-size: 40px;
+  opacity:1;
+  color:gray;
+}
+
+.nameh1 > .h1xtrastyle {
+  color:black;
+}
+
+.mydesc {
+  margin-top:30px;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.abttitle {
+  margin-top:30px;
+  font-weight:600;
+  font-size:40px;
+  font-family:"Poppins",serif;
+}
+
+.abtp {
+  font-size:1rem;
+  margin-top:20px;
+}
+
+underline {
+  text-decoration-line:underline;
+}
+
+#sitetitle {
+  margin-left:10px;
+  font-weight:700;
+}
+
+.procont {
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+.proj {
+  margin:10px;
+  border:2px solid lightgray;
+  height:450px;
+  border-radius:10px;
+  margin-bottom:10px;
+}
+
+.projimg{
+  margin-top:10px;
+  margin-left:10px;
+  text-align:center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+.projtitle {
+  margin-left:10px;
+  font-family:"Kode Mono",monospace;
+  font-weight:700;
+  margin-top:30px;
+}
+
+.projdesc {
+  margin-top:20px;
+  margin-left:10px;
+  font-size:18px;
+}
+
+.projlink {
+  text-decoration:none;
+  margin-top:10px;
+  margin-left:10px;
+}
+
+.vmp {
+  text-decoration:none;
+  border:1px solid purple;
+  background-color:blue;
+  color:white;
+  margin:10px;
+  padding:10px;
+  border-radius:10px;
+}
+
+.vmp:hover{
+  background-color:lightblue;
+  color:black;
+}
+
+.footer {
+  position: fixed;
+  top:88%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  max-width: 1280px;
+  width: 95%;
+  background:#f8f9fa;
+  border-radius: 6px;
+}
+
+.footer .footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 3.5rem;
+  padding: 60px;
+}
+
+.footer-row .footer-col h4 {
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.footer-col .links {
+  margin-top: 20px;
+}
+
+.footer-col .links li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.footer-col .links li .fta {
+  text-decoration: none;
+  color: #000;
+}
+
+.footer-col .links li .fta:hover {
+  color:black;
+}
+
+.foote-col .footerp  {
+  margin: 20px 0;
+  color: #bfbfbf;
+  max-width: 300px;
+}
+
+.footer-col form {
+  display: flex;
+  gap: 5px;
+}
+
+.footer-col input {
+  height: 40px;
+  border-radius: 6px;
+  background: none;
+  width: 100%;
+  outline: none;
+  border: 1px solid #7489C6 ;
+  caret-color: #fff;
+  color: #fff;
+  padding-left: 10px;
+}
+
+.footer-col input::placeholder {
+  color: #ccc;
+}
+
+ .footer-col form button {
+  background: #fff;
+  outline: none;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+.footer-col form button:hover {
+  background: #cecccc;
+}
+
+.footer-col .icons {
+  display: flex;
+  margin-top: 30px;
+  gap: 30px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    transform: none;
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .footer .footer-row {
+    padding: 20px;
+    gap: 1rem;
+  }
+
+  .footer-col form {
+    display: block;
+  }
+
+  .footer-col form :where(input, button) {
+    width: 100%;
+  }
+
+  .footer-col form button {
+    margin: 10px 0 0 0;
+  }
+}
+
+.abtcont {
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.abttitle2{
+  font-size:28px;
+  margin-top:10px;
+  margin-bottom:10px;
+  font-family:"Poppins",serif;
+}
+
+.abtp2 {
+  font-size:18px;
+}
+
+.projpage {
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.crttitle {
+  font-size:28px;
+  margin-top:10px;
+  margin-bottom:10px;
+  font-family: "Poppins",serif;
+}
+
+.crt {
+  margin:10px;
+  border:2px solid lightgray;
+  height:400px;
+  border-radius:10px;
+}
+
+.crtimg {
+  height:189px;
+  width:248.1px;
+  margin-top:10px;
+  margin-left:10px;
+}
+
+.crt2 {
+  margin:10px;
+  border:2px solid lightgray;
+  height:450px;
+  border-radius:10px;
+}
+
+.hobhome {
+  margin:10px;
+  margin-top:20px;
+}

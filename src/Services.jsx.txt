@@ -1,0 +1,42 @@
+import React from 'react'
+import { Link } from 'react-router-dom'
+
+function Services() {
+  return (
+    <div className='projpage'>
+      <h1 class="abttitle">Services</h1>
+      <hr />
+      <h4 class="abttitle2">1. Frontend React Development</h4>
+      <p className='abtp'>Transforming concepts into intuitive and responsive user interfaces using HTML5, CSS3, and JavaScript. Specializing in React JS for dynamic and engaging frontend experiences.</p>
+      <hr />
+      <h4 class="abttitle2">2. Backend Development</h4>
+      <p className='abtp'>Designing and implementing robust backend solutions with Node.js and Express.js. Integrating APIs and ensuring seamless data flow for efficient application functionality.</p>
+      <hr />
+      <h4 class="abttitle2">3. Full-Stack Development</h4>
+      <p className='abtp'>Delivering end-to-end web solutions by combining frontend frameworks with scalable backend architectures. Crafting database schemas, optimizing queries, and maintaining data integrity.</p>
+      <hr />
+      <h4 class="abttitle2">4. Responsive Designs</h4>
+      <p className='abtp'>Ensuring websites are optimized for diverse devices and screen sizes. Implementing mobile-first strategies to enhance user experience and accessibility.</p>
+      <hr />
+      <h4 class="abttitle2">5. API Integrations</h4>
+      <p className='abtp'>Integrating third-party APIs for extended functionality such as payment gateways and social media integrations. Building RESTful APIs or GraphQL endpoints to support frontend operations.</p>
+      <hr />
+      <h4 class="abttitle2">6. Performance Optimization</h4>
+      <p className='abtp'>Enhancing application performance through efficient code practices, asset optimization, and database tuning. Implementing caching strategies for improved load times and user retention.</p>
+      <hr />
+      <h4 class="abttitle2">7. Version Control and Deployment</h4>
+      <p className='abtp'>Utilizing Git for version control and ensuring codebase integrity across development stages. Deploying applications to cloud platforms like AWS or hosting services like Vercel for seamless deployment and scaling.</p>
+      <hr />
+      <h4 class="abttitle2">8. Maintenance and Support</h4>
+      <p className='abtp'>Providing ongoing maintenance, updates, and bug fixes to ensure uninterrupted operation of web applications. Offering technical support and troubleshooting to resolve issues promptly.</p>
+      <hr />
+      <h4 class="abttitle2">9. Consultation and Strategy</h4>
+      <p className='abtp'>Advising on technology stack selection, architectural design, and project planning. Conducting thorough code reviews and providing strategic recommendations for optimal project execution.</p>
+      <hr />
+      <h4 class="abttitle2">10. Custom Solutions and Prototyping</h4>
+      <p className='abtp'>Developing custom solutions tailored to specific client needs and prototyping new ideas. Iterating rapidly to validate concepts and gather valuable user feedback for iterative improvements.</p>
+    </div>
+  )
+}
+
+export default Services
